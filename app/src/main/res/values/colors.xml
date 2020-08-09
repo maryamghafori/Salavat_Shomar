@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00086c</color>
+    <color name="colorPrimaryDark">#000658</color>
+    <color name="colorPrimaryLight">#1E88E5</color>
+
+    <color name="background">#070D3B</color>
+    <color name="background_text_color">#8FFFFF</color>
+    <color name="semi_transparent_white">#55FFFFFF</color>
+    <color name="textColor">#00086c</color>
+
+
+    <color name="textColorPrimary">#8FFFFF</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccentDark">#F50057</color>
+    <color name="colorAccentLight">#FF80AB</color>
+
+    <color name="bk_color">#36B877</color>
+
+    <color name="color1">#3fe731</color>
+    <color name="color2">#2ca222</color>
+    <color name="color3">#e7314a</color>
+    <color name="color4">#a22234</color>
+    <color name="color5">#d1ffcd</color>
+    <color name="color6">#31e7c6</color>
+    <color name="color7">#3174e7</color>
+
+    <color name="guillotine_background">#444153</color>
+    <color name="guillotine_background_dark">#020533</color>
+    <color name="selected_item_color">#30d1d5</color>
+    <color name="red_active">#f44336</color>
+    <color name="red_inactive">#e57373</color>
+    <color name="orange_active">#ff9800</color>
+    <color name="orange_inactive">#ffb74d</color>
+    <color name="green_active">#4caf50</color>
+    <color name="green_inactive">#81c784</color>
+    <color name="red_bg_light">#ffebee</color>
+    <color name="green_bg_light">#fff3e0</color>
+    <color name="yellow_bg_light">#fffde7</color>
+    <color name="blue_grey_bg_light">#eceff1</color>
+
+    <color name="purple">#4A47A7</color>
+
+    <color name="color_1">#DB4437</color>
+    <color name="color_2">#E91E63</color>
+    <color name="color_3">#FF5722</color>
+    <color name="color_4">#EF6C00</color>
+    <color name="color_5">#689F38</color>
+    <color name="color_6">#0097A7</color>
+    <color name="color_7">#4285F4</color>
+    <color name="color_8">#039BE5</color>
+    <color name="color_9">#3F51B5</color>
+    <color name="color_10">#673AB7</color>
+    <color name="color_11">#757575</color>
+    <color name="news11fontGray">#878787</color>
+    <color name="newsFontGray">#92B4B1B1</color>
+    <color name="news11mask">#66000000</color>
+    <color name="black">#000000</color>
+    <color name="separator">#DDAAAAAA</color>
+    <color name="White">#FFFFFF</color>
+    <color name="news11colorPrimary">#cc0203</color>
+    <color name="newsfontGray">#92B4B1B1</color>
+    <color name="delete">#FFAB00</color>
+    <color name="Green">#16CA23</color>
+
+    <color name="green_50">#E8F5E9</color>
+    <color name="green_100">#C8E6C9</color>
+    <color name="green_200">#A5D6A7</color>
+    <color name="green_300">#81C784</color>
+    <color name="green_400">#66BB6A</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="green_600">#43A047</color>
+    <color name="green_700">#388E3C</color>
+    <color name="green_800">#2E7D32</color>
+    <color name="green_900">#1B5E20</color>
+    <color name="green_A100">#B9F6CA</color>
+    <color name="green_A200">#69F0AE</color>
+    <color name="green_A400">#00E676</color>
+    <color name="green_A700">#00C853</color>
+
+    <color name="text">#ffffffff</color>
+    <color name="background_dark">#ff363636</color>
+    <color name="background_content">#ff454344</color>
+
+    <color name="custom_progress_background">#ff3c3a3b</color>
+
+    <color name="custom_progress_green_header">#ff99cc00</color>
+    <color name="custom_progress_green_progress">#ff669900</color>
+    <color name="custom_progress_green_progress_half">#7f669900</color>
+
+    <color name="custom_progress_orange_header">#ffffbb33</color>
+    <color name="custom_progress_orange_progress">#ffff8800</color>
+    <color name="custom_progress_orange_progress_half">#7fff8800</color>
+
+    <color name="custom_progress_blue_header">#ff33b5e5</color>
+    <color name="custom_progress_blue_progress">#ff0099cc</color>
+    <color name="custom_progress_blue_progress_half">#7f0099cc</color>
+
+    <color name="custom_progress_purple_header">#ffaa66cc</color>
+    <color name="custom_progress_purple_progress">#ff9933cc</color>
+    <color name="custom_progress_purple_progress_half">#7f9933cc</color>
+
+    <color name="custom_progress_red_header">#ffcc0000</color>
+    <color name="custom_progress_red_progress">#ffff4444</color>
+    <color name="custom_progress_red_progress_half">#7fff4444</color>
+
+</resources>

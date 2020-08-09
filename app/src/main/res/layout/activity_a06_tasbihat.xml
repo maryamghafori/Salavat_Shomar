@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Activitys.A06Tasbihat">
+
+    <LinearLayout
+        android:id="@+id/liner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/lblNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:text="25"
+            android:textColor="@color/White"
+            android:textSize="100sp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/LblZheker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/allhoAkbar"
+            android:textColor="@color/White"
+            android:textSize="45sp" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/resetTAs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="8dp"
+        android:background="?android:selectableItemBackground"
+        android:padding="12dp"
+        android:text="@string/resetKardan"
+        android:textColor="@color/custom_progress_red_header"
+        android:textSize="16sp"
+        android:layout_below="@id/liner1"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/resetTAs"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:paddingTop="75dp">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnNumber"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/round_button"
+            android:padding="20dp" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view4"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_centerInParent="true"
+            android:scaleType="centerInside"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/dayere_loader" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

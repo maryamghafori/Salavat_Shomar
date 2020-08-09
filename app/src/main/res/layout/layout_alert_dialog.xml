@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/viewC"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:background="@color/color_3" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewC"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:padding="16dp">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/titleIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentStart="true"
+            android:tint="@color/news11mask"
+            app:srcCompat="@drawable/ic_check" />
+
+        <TextView
+            android:id="@+id/titleMD"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_marginEnd="8dp"
+            android:paddingStart="15dp"
+            android:layout_toEndOf="@+id/titleIcon"
+            android:gravity="center_vertical|end"
+            android:text="@string/title"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/separator"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/titleMD"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/separator" />
+
+        <TextView
+            android:id="@+id/messageMD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/separator"
+            android:lineSpacingExtra="10dp"
+            android:gravity="right"
+            android:minHeight="80dp"
+            android:text="@string/Sample_Text" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/inputMD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/messageMD"
+            android:clickable="true"
+            android:hint="@string/input"
+            android:inputType="textShortMessage|text"
+            android:singleLine="true"
+            android:visibility="gone"
+            android:focusable="true" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/inputMD"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/negativeColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/inputMD"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_toStartOf="@id/positiveColor"
+                android:background="@color/color_8"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/negativeMD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:selectableItemBackground"
+                    android:orientation="horizontal"
+                    android:padding="4dp">
+
+                    <TextView
+                        android:id="@+id/negativeText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="24dp"
+                        android:layout_marginEnd="8dp"
+                        android:textColor="@color/White"
+                        android:gravity="center_vertical"
+                        android:text="@string/negative" />
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/negativeIcon"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        app:srcCompat="@drawable/ic_check" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/positiveColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@color/color_5"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/positiveMD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:selectableItemBackground"
+                    android:orientation="horizontal"
+                    android:padding="4dp">
+
+                    <TextView
+                        android:id="@+id/positiveText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="24dp"
+                        android:layout_marginEnd="8dp"
+                        android:textColor="@color/White"
+                        android:gravity="center_vertical"
+                        android:text="@string/positive" />
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/positiveIcon"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        app:srcCompat="@drawable/ic_check" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/neutralColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/inputMD"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="16dp"
+            android:background="@color/news11colorPrimary"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/neutralMD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground"
+                android:orientation="horizontal"
+                android:padding="4dp">
+
+                <TextView
+                    android:id="@+id/neutralText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_marginEnd="8dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/neutral"
+                    android:textColor="@color/White" />
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/neutralIcon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    app:srcCompat="@drawable/ic_check" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".Activitys.A04ZekreHafte">
+
+
+    <LinearLayout
+        android:id="@+id/liner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/LblZhekerRoz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/allhoAkbar"
+            android:textColor="@color/White"
+            android:textSize="30sp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/LblZhekerHafte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="@string/allhoAkbar"
+            android:textColor="@color/White"
+            android:textSize="35sp" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/resetZHk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/liner1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="8dp"
+        android:background="?android:selectableItemBackground"
+        android:padding="12dp"
+        android:text="@string/resetKardan"
+        android:textColor="@color/custom_progress_red_header"
+        android:textSize="16sp" />
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/btnNumberZH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="25dp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:padding="25dp"
+        android:text="@string/num_100"
+        android:textColor="@color/White"
+        android:textSize="150sp" />
+
+
+</RelativeLayout>

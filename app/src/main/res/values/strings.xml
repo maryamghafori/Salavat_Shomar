@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Salavat Shomar</string>
+    <string name="SalavatSomar">صلوات شمار</string>
+    <string name="quran">قران کریم</string>
+    <string name="amalHafte">اعمال</string>
+    <string name="history">تاریخچه</string>
+    <string name="resetKardan">ریست کردن</string>
+    <string name="zeke">ذکر هفته</string>
+
+    <string name="title">عنوان</string>
+    <string name="Sample_Text">Sample Text</string>
+    <string name="positive">Positive</string>
+    <string name="positiveText">بله ,ادامه میدم</string>
+    <string name="negative">Negative</string>
+    <string name="negativeText">نه ,علاقه ای ندارم</string>
+    <string name="neutral">Neutral</string>
+    <string name="input">Input</string>
+    <string name="deleteItem">ادامه</string>
+    <string name="deleteMessage">آیا دوست دارید از ادامه صلوات های \n که قبلا فرستادید ادامه دهید</string>
+
+    <string name="profile">درباره ما</string>
+    <string name="feed">FEED</string>
+    <string name="activity">صلوات شمار</string>
+    <string name="settings">تنظیمات</string>
+
+    <string name="home">خانه</string>
+    <string name="search">جستجو</string>
+    <string name="notification">اگاهی دادن</string>
+    <string name="likes">علاقه ها</string>
+    <string name="happy">خوشحال</string>
+    <string name="room">اتاق</string>
+    <string name="restaurant">غذا</string>
+    <string name="photos">تصویر</string>
+    <string name="appVer">v1.0</string>
+    <string name="Tasbihat">تسبیحات</string>
+
+    <string name="alhamdAllah">الحمدلله</string>
+    <string name="hatman">    حتمـــــا    </string>
+    <string name="sohbhanAllah">سبحان الله</string>
+    <string name="allhoAkbar">الله اکبر</string>
+    <string name="eltemasDoaa">التماس دعا</string>
+    <string name="eltemasDoaaMess">مارا از دعای خیرتون بی نصیب نزارید 🤲🏻</string>
+
+
+    <string name="str_actmain_btn_reset">رکعت اول</string>
+    <string name="num_100">100</string>
+    <string name="created_for">Created for: \nProfessor Hossein Moradi</string>
+    <string name="created_for_Des">This program has been developed and designed for Islamic Azad University Khomeini Shahr project lesson</string>
+
+    <string-array name="str_rokat">
+        <item>رکعت اول</item>
+        <item>رکعت دوم</item>
+        <item>رکعت سوم</item>
+        <item>رکعت چهارم</item>
+    </string-array>
+
+    <string-array name="str_sajde">
+        <item>سجده اول</item>
+        <item>سجده دوم</item>
+    </string-array>
+
+    <string-array name="fonts">
+        <item>Segoe UI</item>
+        <item>Segoe UI Bold</item>
+        <item>AGhasem</item>
+        <item>Amrys Medium</item>
+    </string-array>
+
+    <string name="Git">Git Hub</string>
+
+</resources>

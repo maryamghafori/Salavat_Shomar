@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Activitys.A05Salavat">
+
+    <LinearLayout
+        android:id="@+id/dynamicContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.mxn.soul.flowingdrawer_core.FlowingDrawer
+            android:id="@+id/drawerlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            app:edMenuSize="260dp"
+            app:edPosition="1">
+
+            <RelativeLayout
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/numSal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:text="0"
+                    android:padding="20dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/White"
+                    android:textSize="60sp"
+                    android:textStyle="bold" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/reset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/numSal"
+                    android:layout_alignParentEnd="true"
+                    android:layout_margin="15dp"
+                    android:background="?selectableItemBackground"
+                    android:padding="15dp"
+                    android:text="@string/resetKardan"
+                    android:textColor="@color/color3"
+                    android:textSize="16sp" />
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/btnSal"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="500dp"
+                    android:layout_marginBottom="195dp"
+                    android:background="@drawable/round_button"
+                    android:padding="20dp" />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/lottieArrow"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerInParent="true"
+                    android:scaleType="fitCenter"
+                    app:lottie_rawRes="@raw/arrow_slide" />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animation_view4"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="75dp"
+                    android:scaleType="centerInside"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/dayere_loader" />
+
+            </RelativeLayout>
+
+            <!--menu-->
+            <com.mxn.soul.flowingdrawer_core.FlowingMenuLayout
+                android:id="@+id/menulayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!--android:id="@+id/listView"-->
+                <ListView
+                    android:id="@+id/id_container_menu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@null" />
+
+
+            </com.mxn.soul.flowingdrawer_core.FlowingMenuLayout>
+
+        </com.mxn.soul.flowingdrawer_core.FlowingDrawer>
+
+    </LinearLayout>
+
+</RelativeLayout>
